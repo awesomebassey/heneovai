@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+}
+.bg, .ff{
+    background: #f7aa47;
+}
+.bs{
+    box-shadow: 2px 1px 3px #866336;
+}
+.hnav, .exp-head, .for-him-head, .for-her-head, .category-head, .abt-g{
+    background-color: #d7b56d;
+}
+.hnav ul li{
+    display: inline;
+    font-size: 1.3rem;
+}
+.slider{
+    height: 85vh;
+}
+h2{
+   color: #d7b56d;
+   font-weight: bolder;
+   text-shadow: 2px 1px 3px #866336;
+   font-size: 1.5em;
+}
+.exp-img{
+    height: 200px;
+}
+.hello{
+    font-size: 4em;
+    margin-top: 1.5em !important;
+}
+.contact-form{
+    border-radius: 10px;
+}
+button{
+   border: none;
+   border-radius: 5px;
+   background: linear-gradient(90deg, #d7b56d, #f7aa47);
+}
+footer{
+    background-color: #d7b56d;
+}
+a:hover{
+    text-decoration: none;
+}
+/* Couture */
+.for-him-head, .for-him-hr, .for-herr{
+    width: 40%;
+}
+.for-herr{
+    float: right;
+}
+/* Gallery */
+.page-item a, .page-item a:hover{
+    color: #866336;
+}
+/* Shop */
+del{
+    text-decoration: double line-through;
+}
+/* Lifestyle */
+.abt-g i{
+    font-size: 1.3em;
+}
+#olstories{
+    height: 60px;
+    background: white;
+    color: #f7aa47;
+    font-size: 1.2em;
+}
+aside p{
+    font-size: 0.7em;
+}
+:focus{
+    box-shadow: none !important;
+}
+/* Posts*/
+.post-title{
+    color: #f7aa47;
+    text-shadow: 0.5px 0.5px 1px #866336;
+}
+.hr1, .hr2, .hr3{
+    background: white;
+}
+img{
+    margin-bottom: 10px;
+}
+/* Animate Css */
