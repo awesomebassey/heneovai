@@ -35,8 +35,8 @@ h2{
     font-size: 4em;
     margin-top: 1.5em !important;
 }
-.contact-form{
-    border-radius: 10px;
+.contact-form, .testimonial{
+    border-radius: 11px;
 }
 button{
    border: none;
@@ -53,8 +53,12 @@ a:hover{
 .for-him-head, .for-him-hr, .for-herr{
     width: 40%;
 }
-.for-herr{
-    float: right;
+.testimonial{
+    border: .3px solid #866336;
+    box-shadow: .3px .1px 3px #866336;
+}
+.testimonial #avatar{
+    border-radius: 50px;
 }
 /* Gallery */
 .page-item a, .page-item a:hover{
