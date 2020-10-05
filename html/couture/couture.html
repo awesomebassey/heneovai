@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/assets/bootstrap.css">
     <link rel="stylesheet" href="../../css/assets/icofont/icofont.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
     <link rel="stylesheet" href="../../css/main.css">
     <link rel="shortcut icon" href="../../images/logo.png" type="image/x-icon">
     <title>Heneovai · Couture</title>
@@ -34,31 +35,52 @@
         </nav>
         <hr class="bg my-1">
     </header>
-    <div class="g-quote text-center my-3">
-        <h3 class="quote animate__animated animate__slideInUp">FASHION IS A WAY TO SAY <br> WHO YOU ARE WITHOUT <br> HAVING TO SPEAK <br>
-            <small>- Rachel Zoe</small>
-        </h3>
+    <div class="g-quote text-center my-3 px-3">
+        <div class="mySlides fade">
+            <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+            <p class="author">- John Keats</p>
+        </div>
+
+        <div class="mySlides fade">
+            <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+            <p class="author">- Ernest Hemingway</p>
+        </div>
+
+        <div class="mySlides fade">
+            <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+            <p class="author">- Thomas A. Edison</p>
+        </div>
     </div>
-    <div class="g-category container">
+    <div class="g-category container tz-gallery">
         <div class="row justify-content-center">
             <div class="col-lg-2 mx-3 my-3 card py-2">
-                <img src="../../images/IMG_3320.jpg" alt="" width="150px" class="d-block mx-auto bs">
+                <a class="lightbox" href="../../images/IMG_2444.jpg">
+                    <img src="../../images/IMG_2444.jpg" alt="Park" class="bs">
+                </a>
                 <h6 class="text-center">Category 1</h6>
             </div>
             <div class="col-lg-2 mx-3 my-3 card py-2">
-                <img src="../../images/IMG_3320.jpg" alt="" width="150px" class="d-block mx-auto bs">
+                <a class="lightbox" href="../../images/IMG_2444.jpg">
+                    <img src="../../images/IMG_2444.jpg" alt="Park" class="bs">
+                </a>
                 <h6 class="text-center">Category 2</h6>
             </div>
             <div class="col-lg-2 mx-3 my-3 card py-2">
-                <img src="../../images/IMG_3320.jpg" alt="" width="150px" class="d-block mx-auto bs">
+               <a class="lightbox" href="../../images/IMG_2444.jpg">
+                    <img src="../../images/IMG_2444.jpg" alt="Park" class="bs">
+                </a>
                 <h6 class="text-center">Category 3</h6>
             </div>
             <div class="col-lg-2 mx-3 my-3 card py-2">
-                <img src="../../images/IMG_3320.jpg" alt="" width="150px" class="d-block mx-auto bs">
+                <a class="lightbox" href="../../images/IMG_2444.jpg">
+                    <img src="../../images/IMG_2444.jpg" alt="Park" class="bs">
+                </a>
                 <h6 class="text-center">Category 4</h6>
             </div>
             <div class="col-lg-2 mx-3 my-3 card py-2">
-                <img src="../../images/IMG_3320.jpg" alt="" width="150px" class="d-block mx-auto bs">
+                <a class="lightbox" href="../../images/IMG_2444.jpg">
+                    <img src="../../images/IMG_2444.jpg" alt="Park" class="bs">
+                </a>
                 <h6 class="text-center">Category 5</h6>
             </div>
             <button class="btn-lg my-4 bs mb-5"><a href="shop.html" class="text-black-50 font-weight-bold">Shop Now <i
@@ -68,7 +90,7 @@
     <div class="g-about bg my-5 py-5">
         <div class="container">
             <div class="row">
-                <div class="text-center">
+                <div class="text-center px-3">
                     <h3>What We Do Differently</h3>
                     <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, laborum
                         quis soluta vero unde
@@ -181,16 +203,16 @@
         </div>
     </div>
     <hr class="bg my-1">
-    <footer class="py-2">
+    <footer class="py-4">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-lg-5 ln my-3">
+                <div class="col-lg-5 ln">
                     <a href="../../index.html"><img src="../../images/logo.png" alt="" width="20px"></a>
                 </div>
-                <div class="col-lg-5 my-3 mx-auto">
+                <div class="col-lg-5 mx-auto">
                     <small>&copy; 2020. All Rights Reserved.</small>
                 </div>
-                <div class="col-lg-2 ln my-3">
+                <div class="col-lg-2 ln">
                     <a href=""> <i class="icofont icofont-facebook mr-3 text-black-50"></i></a>
                     <a href=""> <i class="icofont icofont-instagram mr-3 text-black-50"></i></a>
                     <a href=""> <i class="icofont icofont-twitter mr-3 text-black-50"></i></a>
@@ -199,6 +221,10 @@
         </div>
     </footer>
     <script src="../../js/scripts.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
 </body>
 
 </html>
