@@ -6,6 +6,9 @@
 body{
     font-size: 20px;
 }
+img{
+border-radius: 5px;
+}    
 .bg, .ff{
     background: #f7aa47;
 }
@@ -18,9 +21,6 @@ body{
 .hnav ul li{
     display: inline;
     font-size: 1.3rem;
-}
-.slider{
-    height: 85vh;
 }
 h2{
    color: #d7b56d;
@@ -46,10 +46,16 @@ button{
 footer{
     background-color: #d7b56d;
 }
+.card{
+    border: none !important;
+}
 a:hover{
     text-decoration: none;
 }
 /* Couture */
+.author{
+    color: #866336;
+}
 .for-him-head, .for-him-hr, .for-herr{
     width: 40%;
 }
@@ -63,6 +69,14 @@ a:hover{
 /* Gallery */
 .page-item a, .page-item a:hover{
     color: #866336;
+}
+.tz-gallery .lightbox img {
+    width: 100%;
+    transition: 0.3s ease-in-out;
+}
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 1px 3px #866336;
 }
 /* Shop */
 del{
@@ -95,4 +109,31 @@ aside p{
 img{
     margin-bottom: 10px;
 }
-/* Animate Css */
+/* Fading Anime */
+.fade {
+    animation-name: fade;
+    animation-duration: 5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: 1
+    }
+}
+/* Slider */
+.main-slider{
+	position:relative;
+	z-index:10;
+	overflow:hidden;
+}
+.main-slider .tp-caption{
+	z-index:5;
+}
+.main-slider .tp-bannertimer,
+.main-slider .tp-bullets{
+	display:none !important;
+}

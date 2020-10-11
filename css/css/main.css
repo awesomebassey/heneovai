@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+}
+img{
+border-radius: 5px;
+}    
+.bg, .ff{
+    background: #f7aa47;
+}
+.bs{
+    box-shadow: 2px 1px 3px #866336;
+}
+.hnav, .exp-head, .for-him-head, .for-her-head, .category-head, .abt-g{
+    background-color: #d7b56d;
+}
+.hnav ul li{
+    display: inline;
+    font-size: 1.3rem;
+}
+h2{
+   color: #d7b56d;
+   font-weight: bolder;
+   text-shadow: 2px 1px 3px #866336;
+   font-size: 1.5em;
+}
+.exp-img{
+    height: 200px;
+}
+.hello{
+    font-size: 4em;
+    margin-top: 1.5em !important;
+}
+.contact-form, .testimonial{
+    border-radius: 11px;
+}
+button{
+   border: none;
+   border-radius: 5px;
+   background: linear-gradient(90deg, #d7b56d, #f7aa47);
+}
+footer{
+    background-color: #d7b56d;
+}
+.card{
+    border: none !important;
+}
+a:hover{
+    text-decoration: none;
+}
+/* Couture */
+.author{
+    color: #866336;
+}
+.for-him-head, .for-him-hr, .for-herr{
+    width: 40%;
+}
+.testimonial{
+    border: .3px solid #866336;
+    box-shadow: .3px .1px 3px #866336;
+}
+.testimonial #avatar{
+    border-radius: 50px;
+}
+/* Gallery */
+.page-item a, .page-item a:hover{
+    color: #866336;
+}
+.tz-gallery .lightbox img {
+    width: 100%;
+    transition: 0.3s ease-in-out;
+}
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 1px 3px #866336;
+}
+/* Shop */
+del{
+    text-decoration: double line-through;
+}
+/* Lifestyle */
+.abt-g i{
+    font-size: 1.3em;
+}
+#olstories{
+    height: 60px;
+    background: white;
+    color: #f7aa47;
+    font-size: 1.2em;
+}
+aside p{
+    font-size: 0.7em;
+}
+:focus{
+    box-shadow: none !important;
+}
+/* Posts*/
+.post-title{
+    color: #f7aa47;
+    text-shadow: 0.5px 0.5px 1px #866336;
+}
+.hr1, .hr2, .hr3{
+    background: white;
+}
+img{
+    margin-bottom: 10px;
+}
+/* Fading Anime */
+.fade {
+    animation-name: fade;
+    animation-duration: 5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: 1
+    }
+}
+/* Slider */
+.main-slider{
+	position:relative;
+	z-index:10;
+	overflow:hidden;
+}
+.main-slider .tp-caption{
+	z-index:5;
+}
+.main-slider .tp-bannertimer,
+.main-slider .tp-bullets{
+	display:none !important;
+}
