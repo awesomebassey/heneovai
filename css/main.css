@@ -22,6 +22,9 @@ border-radius: 5px;
     display: inline;
     font-size: 1.3rem;
 }
+.slider{
+    height: 85vh;
+}
 h2{
    color: #d7b56d;
    font-weight: bolder;
@@ -123,17 +126,4 @@ img{
     to {
         opacity: 1
     }
-}
-/* Slider */
-.main-slider{
-	position:relative;
-	z-index:10;
-	overflow:hidden;
-}
-.main-slider .tp-caption{
-	z-index:5;
-}
-.main-slider .tp-bannertimer,
-.main-slider .tp-bullets{
-	display:none !important;
 }
